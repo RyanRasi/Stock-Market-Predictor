@@ -6,10 +6,13 @@ print("Stock Predictor V1\nAuthor - Ryan Rasi\nwww.github.com/ryanrasi\n")
 # API KEY - 9EIFJBT9JKNJ5BS7
 api_key = '9EIFJBT9JKNJ5BS7'
 
-# Apple stock market prices
-stockTicker = "BP"
-
-fileName = retrieveStockData.retrieveStockData(api_key, stockTicker)
+# Asks for stock ticker to analyse
+stockTicker = ""
+while stockTicker == "":
+    stockTicker = input(
+        "Please enter the stock ticker for price history retrieval\n")
+    fileName = retrieveStockData.retrieveStockData(api_key, stockTicker)
+    break
 
 decision = ""
 while not decision == "1":
