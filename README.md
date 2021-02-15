@@ -16,3 +16,5 @@ This was mainly chosen due to its main foothold as one of the most profitable co
 It should be noted that the COVID-19 Worldwide Pandemic has affected stocks in quite a large manner with most stocks tanking for a few weeks and then some raising to the highest that they've been with others at historical lows. Due to this I am using a dataset that ranges from the years 2008 until 2017, however I will soon upgrade this to include up to the end of 2020 once I find a suitable dataset.
 
 The reason I've decided to start this project was due to a great fascination of mine within the financial markets. I've also been to business school, where I've gained expereince in the Bloomberg terminal and have various diplomas and certificates within finance which makes this a journey that I'd love to give a shot and pursue.
+
+The program works by retrieving up to date data for a desired stock and analysing this data for any patterns through averaging. Prediction is only accurate for a few days
