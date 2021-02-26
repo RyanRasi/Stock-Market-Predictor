@@ -23,8 +23,12 @@ It should be noted that the COVID-19 Worldwide Pandemic has affected stocks in q
 
 The reason I've decided to start this project was due to a great fascination of mine within the financial markets. I've also been to business school, where I've gained expereince in the Bloomberg terminal and have various diplomas and certificates within finance which makes this a journey that I'd love to give a shot and pursue.
 
+<<<<<<< HEAD
 The mid price is used for this program, this means that finding out the value of the stock is less important as it is more about finding out if the stock is going up or down.
 
 How to use...
 
 Firstly the user can enter any stock ticker of their choosing, the data will be retrieved and then the user will be prompted if they want to analyse the mid price data recieved and then start to train the model.
+=======
+The program works by retrieving up to date data for a desired stock and analysing this data for any patterns through averaging. Prediction is only accurate for a few days
+>>>>>>> fe2e3185ee826f64538051cc3158b6284b77d679
